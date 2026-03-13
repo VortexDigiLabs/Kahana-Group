@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row justify-between items-end gap-12">
           <div className="w-full md:w-1/2 order-2 md:order-1 pb-12 md:pb-24">
             <motion.p 
-              className="text-lg md:text-2xl text-slate-200 font-medium leading-relaxed max-w-lg"
+              className="text-base md:text-xl text-slate-200 font-medium leading-relaxed max-w-lg mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -35,7 +35,7 @@ export default function Hero() {
             >
               <a 
                 href="#contact" 
-                className="inline-block mt-8 px-8 py-4 bg-blue-600 text-white font-bold uppercase tracking-wider text-sm hover:bg-blue-500 transition-colors rounded-sm"
+                className="inline-block px-8 py-4 bg-blue-600 text-white font-bold uppercase tracking-wider text-sm hover:bg-blue-500 transition-colors rounded-sm"
               >
                 Partner With Us
               </a>
@@ -43,7 +43,7 @@ export default function Hero() {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2 pt-12 md:pt-24">
             <motion.h1 
-              className="text-[12vw] md:text-[7vw] leading-[0.9] font-bold uppercase tracking-tighter text-white"
+              className="text-[11vw] sm:text-[10vw] md:text-[7vw] leading-[0.9] font-bold uppercase tracking-tighter text-white break-words"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

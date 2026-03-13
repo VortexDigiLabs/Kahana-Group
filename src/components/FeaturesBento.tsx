@@ -53,11 +53,11 @@ export default function FeaturesBento() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-5xl md:text-7xl lg:text-[5.5rem] font-black uppercase tracking-tighter mb-6 leading-[1.1] text-white">
+            <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] font-black uppercase tracking-tighter mb-6 leading-[1.1] text-white break-words">
               THE Kahana Group<br />
               <span className="text-blue-500">ADVANTAGE</span>
             </h2>
-            <p className="text-xl text-slate-400 max-w-lg mx-auto lg:mx-0">
+            <p className="text-base md:text-xl text-slate-400 max-w-lg mx-auto lg:mx-0">
               Our proven methodology ensures excellence across every dimension of your project. With 30+ years of combined expertise, we deliver where others don't.
             </p>
             <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
