@@ -53,7 +53,7 @@ export default function FeaturesBento() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] font-black uppercase tracking-tighter mb-6 leading-[1.1] text-white break-words">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] font-black uppercase tracking-tighter mb-6 leading-[1.1] text-white break-words">
               THE Kahana Group<br />
               <span className="text-blue-500">ADVANTAGE</span>
             </h2>

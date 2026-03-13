@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-x-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -43,7 +43,7 @@ export default function Hero() {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2 pt-12 md:pt-24">
             <motion.h1 
-              className="text-[11vw] sm:text-[10vw] md:text-[7vw] leading-[0.9] font-bold uppercase tracking-tighter text-white break-words"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-[7vw] leading-[0.95] font-bold uppercase tracking-tighter text-white"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

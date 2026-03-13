@@ -38,7 +38,7 @@ export default function Services() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tighter mb-6 break-words">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tighter mb-6 break-words">
             Comprehensive <br className="sm:hidden" /><span className="text-blue-500">Solutions</span>
           </h2>
           <p className="text-base md:text-xl text-slate-400 max-w-2xl">

@@ -8,7 +8,7 @@ export default function About() {
         <div className="flex flex-col lg:flex-row gap-16">
           <div className="w-full lg:w-1/2">
             <motion.h2 
-              className="text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tighter mb-8 text-slate-900 break-words"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tighter mb-8 text-slate-900 break-words"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
